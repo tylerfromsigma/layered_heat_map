@@ -87,7 +87,7 @@ function App() {
 
           const map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/' + config.MapStyle // pk.eyJ1IjoidGFzcGVuY2VyIiwiYSI6ImNsdWlwMW90YzAxMXEycG1pcndmMzFoM3QifQ.uEwYbkTtZDQ7CoulhbDdpQ
+            style: 'mapbox://styles/mapbox/' + config.MapStyle 
           });
 
           map.fitBounds(bounds, { padding: 50, linear: true, duration: 0 });
